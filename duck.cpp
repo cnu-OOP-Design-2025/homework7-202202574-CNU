@@ -18,8 +18,6 @@ void Duck::setQuackBehavior(QuackBehavior* qb){
     delete quackBehavior;
     quackBehavior = qb;
 }
-
-
 /* TODO */
 MallardDuck::MallardDuck() {
     flyBehavior = new FlyWithWings();
